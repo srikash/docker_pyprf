@@ -11,7 +11,6 @@ USER root
 
 RUN echo "Installing updates to Ubuntu Trust 18.04 LTS" && \
     apt-get update -y && \
-    apt-get install -y apt-utils && \
     apt-get upgrade -y && \
     apt-get install -y curl build-essential \
     ccache wget \
@@ -32,7 +31,6 @@ WORKDIR /tmp
 RUN echo "Installing pyprf"
 RUN pip install numpy && \
     git clone https://gitlab.com/skash/pyprf.git && \
-	pip install /tmp/pyprf && \
-	pip install numpy==1.16.1
-
+    pip install /tmp/pyprf
+    
 RUN echo "pyprf Ready for Use."
