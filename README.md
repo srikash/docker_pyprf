@@ -24,4 +24,4 @@ with small changes to fix multithreading issue.
 For complete documentation see [Ingo Marquardt's PyPRF](https://github.com/ingo-m/pyprf).
 
 ## Citation
-If you use this in your research, please cite PyPRF v.2.0.0 using bibfile included here or as described [here](http://doi.org/10.5281/zenodo.1475439).
+If you use this in your research, please cite PyPRF v.2.0.0 using bibfile included [here](https://gitlab.com/skash/docker_pyprf/blob/master/pyprf2018.bib) or as described [here](http://doi.org/10.5281/zenodo.1475439).
