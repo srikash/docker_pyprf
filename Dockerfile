@@ -30,7 +30,8 @@ WORKDIR /tmp
 
 ############ Installing and setting up pyprf
 RUN echo "Installing pyprf"
-RUN git clone https://gitlab.com/skash/pyprf.git && \
+RUN pip install numpy && \
+    git clone https://gitlab.com/skash/pyprf.git && \
 	pip install /tmp/pyprf && \
 	pip install numpy==1.16.1
 
