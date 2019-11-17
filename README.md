@@ -1,7 +1,7 @@
 # docker_pyprf
 
 Dockerisation of [Ingo Marquardt's PyPRF](https://github.com/ingo-m/pyprf) 
-with small changes to fix multithreading issue.
+fixing multithreading issue with docker.
 
 ## Example usage
 
